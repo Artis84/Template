@@ -4,7 +4,7 @@
   "main": "/src/scripts/index.js",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
-  "description": "",
+  "description": "A parcel template",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -16,5 +16,9 @@
     "parcel": "^2.7.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

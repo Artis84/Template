@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./public/**/*.{html,js,vue}"],
+    // prettier-ignore
+    content: [
+        "./public/**/*.{html,js,vue}", 
+        "./index.js"
+    ],
     theme: {
         extend: {},
     },
